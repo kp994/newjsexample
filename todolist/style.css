@@ -1,0 +1,28 @@
+body{
+   background-image: linear-gradient(#CC72F5, #2a51ffb8, #ffff00) ;
+   background-repeat: no-repeat;
+   size: 100vw 100vh;
+   background-size: contain;
+   background-attachment: fixed;
+}
+
+.main
+{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title
+{
+    font-size: 100px;
+    font-family: cursive;
+}
+
+#test
+{
+    border-radius: 10px;
+}

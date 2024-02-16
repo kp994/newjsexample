@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital clock</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="wrapper">
+    
+        
+    <div class="container" id="myclock" onload="clock()"></div>
+    
+</div>
+<div class="alarm">
+    <div class="input">
+        <input type="date"  id="mydate">
+         <input type="time" id="mytime">
+         <button   id="add" onclick="setalarm()">Add</button>
+    </div>
+    
+    <div class="listalarm" style="display: flex;">
+        <ul id="list">
+        </ul>
+
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

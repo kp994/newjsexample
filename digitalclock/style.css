@@ -1,0 +1,73 @@
+html, body{
+    background-color: #d4c6aa;
+}
+.wrapper
+{
+   
+    
+    width: 80%;
+    margin: 10vw 10vw 2vw 10vw;
+}
+
+/* .square
+{
+    background-color:#DDA0DD;
+     width: 10%;
+     height: 45%;
+     transform: translate(230%, 10%);
+    filter: blur(4px);
+} */
+/* .circle
+{
+    filter: blur(4px);
+
+    background-color:#EE82EE;
+     width: 10%;
+     height: 45%;
+     transform: translate(700%, -100%);
+     border-radius: 100%;
+} */
+.container
+{
+   
+    margin: auto ;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    border-color: #EE82EE;
+    transform: translate( 5%, -50%);
+    border-radius: 2vw;
+    box-shadow: 10px 5px 5px;
+
+
+
+}
+
+#myclock
+{
+    font-size:5vw ;
+    color: #EE82EE;
+    font-family: Orbitron;
+    
+}
+
+.alarm
+{
+    border-radius: 10vw;
+    margin: auto;
+    width: 50%;
+    height: 23vw;
+    background-color: #ffc09f;
+    
+}
+
+.input{
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: row;
+   
+    width: 100%;
+    height: 3vw;
+    justify-content: space-evenly;
+}
+
